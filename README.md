@@ -77,6 +77,13 @@ Dùng lệnh như:
 bash
 ssh -R 25:localhost:25 user@vps-ip
 VPS mở port 25 và chuyển tiếp về server nội bộ
+thay thế tốt hơn iải pháp thay thế ổn định hơn
+Giải pháp	Ưu điểm
+WireGuard VPN	Bảo mật cao, kết nối ổn định, tự động khôi phục
+Nginx Reverse Proxy	Dễ cấu hình, hỗ trợ SSL, chuyển tiếp nhiều dịch vụ
+Cloudflare Tunnel	Không cần mở port, bảo mật HTTPS, tích hợp domain
+SMTP Relay	Gửi mail ra ngoài mà không cần IP tĩnh hoặc port 25
+👉 Những giải pháp này được thiết kế để chạy liên tục, ổn định, và bảo mật, phù hợp cho hệ thống mail server hoạt động 24/7.
 
 ✅ Ưu điểm:
 
